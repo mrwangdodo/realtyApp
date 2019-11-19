@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet"
+    href="http://at.alicdn.com/t/font_1517127_9wyzmaytq4v.css">
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- 设置根节点大小 -->
+  <script>
+    const rootSize = document.documentElement.clientWidth / 10;
+    document.querySelector('html').style.fontSize = `${rootSize}px`;
+  </script>
+
+  <!-- Ant Design Mobile -->
+  <script
+    src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js">
+  </script>
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function () {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if (!window.Promise) {
+      document.writeln(
+        '<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' +
+        '>' + '<' + '/' + 'script>');
+    }
+  </script>
+
+  <!-- 高德地图api -->
+  <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=ceb095ba4c60d781355e1be1f0b72fd7">
+  </script>
+
+</body>
+
+</html>
