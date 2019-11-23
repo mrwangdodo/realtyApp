@@ -1,0 +1,25 @@
+.home {
+  .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon {
+    width: 30px !important;
+    height: 30px;
+  }
+  .am-carousel-wrap-dot > span {
+    width: 13px;
+    height: 2px;
+    border-radius: 0;
+    position: relative;
+    bottom: -18px;
+  }
+  .my-banner {
+    .am-carousel-wrap-dot > span {
+      width: 13px;
+      height: 2px;
+      border-radius: 0;
+      position: relative;
+      bottom: 5px;
+    }
+    .am-carousel-wrap-dot-active > span {
+      background-color: #fff;
+    }
+  }
+}

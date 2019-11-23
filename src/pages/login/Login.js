@@ -9,7 +9,6 @@ class Login extends Component {
   submit = () => {
     this.props.form.validateFields((error, value) => {
       if (error) return;
-      // console.log(value);
       this.getLoginRequest(value);
     });
   };
@@ -25,8 +24,8 @@ class Login extends Component {
           this.props.history.replace('/');
         }
       })
-      .catch(err => console.log(err))
-  }
+      .catch(err => console.log(err));
+  };
 
   render() {
     const { getFieldProps } = this.props.form;
@@ -56,13 +55,16 @@ class Login extends Component {
           </InputItem>
           <WhiteSpace size='xl' />
           <InputItem
-            {...getFieldProps('pwd', {
-              rules: [{ required: true }, {
-                validator(rule, value, callback, source, options) {
-                  var errors = [];
-                  return errors;
+            {...getFieldProps('password', {
+              rules: [
+                { required: true },
+                {
+                  validator(rule, value, callback, source, options) {
+                    var errors = [];
+                    return errors;
+                  }
                 }
-              }]
+              ]
             })}
             clear
             type='password'

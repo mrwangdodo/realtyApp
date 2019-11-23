@@ -1,0 +1,51 @@
+[
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "万贯金府星座",
+        "address": "金牛-茶店子",
+        "price": "13700",
+        "id": "1"
+    },
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "置信·逸都城（温江）",
+        "address": "温江-温江城区",
+        "price": "14000",
+        "id":"2"
+    },
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "高登6街",
+        "address": "双流-华府大道",
+        "price": "13500",
+        "id":"3"
+    },
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "绿地锦天赋",
+        "address": "锦江区-攀成钢",
+        "price": "19000",
+        "id":"4"
+    },
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "信合御龙山",
+        "address": "成华区-东客站",
+        "price": "14500",
+        "id":"5"
+    },
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "中海城南一号",
+        "address": "高新区-金融城",
+        "price": "39800",
+        "id":"6"
+    },
+    {
+        "pic": "http://img5.sofang.com/community/photo/2019_07/09/formal_141807_620.849_YUK5.jpg",
+        "name": "蜀郡·清上居",
+        "address": "郫县-郫县城区",
+        "price": "19000",
+        "id":"7"
+    }
+]
